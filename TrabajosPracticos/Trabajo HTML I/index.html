@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Título</title>
+</head>
+<body>
+
+    <main>
+        <h1 id="titulo1">1. Estructura Básica del Documento</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título.</p>
+
+        <section>
+            <h2 id="titulo2">2. Encabezados y Propiedades de Texto</h2>
+            <p><strong>Esto es un Texto en Negrita</strong></p>
+            <p><em>Esto es un texto en cursiva</em></p>
+            <p style="color: red; text-align: center;">Esto es un Texto en Rojo y Centrado</p>
+            <p style="text-shadow: 2px 2px 4px #000000; letter-spacing: 2px;">Esto es un Texto con Sombra y Espaciado</p>
+            <p style="border: 2px solid black; padding: 10px;">Esto es un Texto con Borde y Relleno</p>
+        </section>
+
+        <section>
+            <h2 id="titulo3">3. División y Agrupaciones de Contenido</h2>
+            <article>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un artículo.</p>
+            </article>
+
+            <article>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un artículo.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <p>Visita nuestro <a href="https://www.youtube.com/watch?v=FcZ_D5jsilM&list=PLRFOqDrY-6ns2FQdjmqx3ShGLRLj9ESPE&index=4" target="_blank">sitio Web</a></p>
+
+            <nav>
+                <h3>Enlaces internos</h3>
+                <ul>
+                    <li><a href="#titulo1">Ir al Primer Título</a></li>
+                    <li><a href="#titulo2">Ir al Segundo Título</a></li>
+                    <li><a href="#titulo3">Ir al Tercer Título</a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <h3>Lista Desordenada</h3>
+                <ul>
+                    <li>Primer Elemento de una lista desordenada</li>
+                    <li>Segundo Elemento de una lista desordenada</li>
+                    <li>Tercer Elemento de una lista desordenada</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Lista Ordenada</h3>
+                <ol>
+                    <li>Primer Elemento de una lista ordenada</li>
+                    <li>Segundo Elemento de una lista ordenada</li>
+                    <li>Tercer Elemento de una lista ordenada</li>
+                </ol>
+            </section>
+        </section>
+
+        <section>
+            <h2>5. Elementos Multimedia</h2>
+
+            <img src="//www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+                alt="Imagen"
+                width="200px"
+                height="200px">
+
+
+
+            <video 
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+                controls 
+                width="250px"
+                height="200px">
+            </video>
+
+
+
+            <audio 
+                src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+                controls>
+            </audio>
+
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <table style="border: 2px solid black; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 2px solid black;">Columna 1</th>
+                        <th style="border: 2px solid black;">Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 2px solid black;">F1 C1</td>
+                        <td style="border: 2px solid black;">F1 C2</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 2px solid black;">F2 C1</td>
+                        <td style="border: 2px solid black;">F2 C2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>7. Formularios</h2>
+            <form>
+                <label for="input1">Nombre: </label>
+                <input id="input1" type="text" placeholder="Ingresa tu nombre por favor">
+
+                <label for="input2">Email: </label>
+                <input id="input2" type="email" placeholder="Ingresa tu email por favor">
+
+                <label for="input3">Mensaje: </label>
+                <textarea id="input3" placeholder="Ingresa tu mensaje" rows="4" cols="50"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

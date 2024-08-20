@@ -1,0 +1,176 @@
+
+/* 4.1  4.2 */
+body {
+    background-color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #333333;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#titulo1{
+
+    text-align: center;
+
+}
+
+h2{
+
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+
+}
+
+blockquote {
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:double;
+    font-style: italic;
+    color: #333333;
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-left: 5px solid #d10e0e;
+}
+
+
+/* 4.3 */
+
+
+#box1, #box2 {
+
+    height: 35px;
+    width: auto;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#box1 {
+    background-color: #9dff9a;
+    border: 2px solid #333;
+}
+
+#box2 {
+    background-color: rgb(199, 255, 255);
+    border: 3px solid #333;
+}
+
+#parrafoCaja1 {
+    text-align: left; 
+}
+
+
+/* 4.4 */
+
+#box3, #box4 {
+
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#box3 {
+    background-color: #c0c5fe;
+    border: 2px solid rgb(60, 60, 237); 
+    position: relative;
+}
+
+#box4 {
+    background-color: #7aff9b;
+    border: 3px solid rgb(41, 164, 44); 
+    position: absolute;
+    top: 10px;
+    right: 190px;
+}
+
+
+/* 4.5 */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #040202;
+    }
+
+    h1 {
+        font-size: 1.5em; 
+        color: white;
+        background-color: #040202;
+    }
+
+    .content {
+        width: 90%; 
+        padding: 10px; 
+    }
+}
+
+
+/* 4.6 */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #4CAF50; 
+    padding: 20px; 
+    color: white; 
+    text-align: center; 
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* 4.7 */
+
+.animacion {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.animacion:hover {
+    background-color: blue; 
+}
+
+.mover {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    animation: mover 3s linear infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px); 
+    }
+}
+
+
+
+
