@@ -1,6 +1,3 @@
-//===========================IMPORTANTE ========================//
-PARA ACCEDER A LA APLICACION SE DEBE COLOCAR /login
-
 
 # React + TypeScript + Vite
 
