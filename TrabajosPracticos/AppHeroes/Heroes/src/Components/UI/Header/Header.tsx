@@ -9,7 +9,7 @@ export const Header = () => {
     const navigate = useNavigate();
     const handleLogOut = ()=>{
       dispatch(setLogout());
-      navigate("/login")
+      navigate("/")
     }
 
   return (
