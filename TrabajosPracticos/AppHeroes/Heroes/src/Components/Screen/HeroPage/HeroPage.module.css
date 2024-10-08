@@ -1,0 +1,14 @@
+.containerMainPage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 100%;
+
+}
+
+.pageImg{
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}

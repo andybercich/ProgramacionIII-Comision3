@@ -1,0 +1,20 @@
+
+
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.navLinks{
+    color: wheat;
+    text-decoration: none;
+}
+
+.navLinks:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.cardMain{
+
+    transition: 0.2s ease-in;
+}
+
+.cardMain:hover{
+
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: grayscale(40%);
+}
